@@ -1,0 +1,139 @@
+/* the styles for the body and how the website will look */
+body{
+    margin: auto;
+    background-color: rgb(41, 41, 41);
+}
+
+/* the styles for the header and how I separated it */
+
+header{
+
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+}
+
+/* the font for the title and color */
+
+h1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* The picture next to the header */
+
+#buglejpeg{
+    float: right;
+}
+
+/* css for the paragraph */
+
+p{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    margin-left: 10%;
+    width: 80%;
+    height: 100 px;
+    text-align: center;
+    
+}
+
+
+/* adjusting the list */
+
+#mainlist{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 45%;
+    margin-right: 45%
+}
+
+/* the styles for the both nav menus one for the actual nav bar
+and another for the list */
+
+.navigationbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.navigationbar ul li a {
+    display: block;
+    width: 160px;
+    text-align: center;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+}
+.navigationbar a.current {
+	color: rgb(255, 255, 255);
+}
+.navigationbar ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+.navigationbar ul ul li {
+	float: none;
+}
+.navigationbar ul li:hover > ul {
+	display: block;
+}
+.navigationbar > ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.navigationbar a:hover{
+    background-color: hsl(0, 0%, 10%);
+}
+.navigationbar2 ul{
+    font-size: larger;
+    list-style-type: none;
+    background-color: hsl(0, 0%, 0%);
+    padding: 0px;
+    margin: 0px;
+    
+}
+.navigationbar2 a{
+
+
+    color: hsl(0, 100%, 99%);
+    display: block;
+    padding: 10px;
+}
+.navigationbar2 a:hover{
+    background-color: hsl(0, 0%, 10%);
+}
+ 
+/* the styles for the footer*/
+
+footer{
+    background-color: hsl(0, 0%, 42%);
+    padding: 20px;
+    margin-top: 25px;
+}
+
+
+
+#trumpet1image{
+
+    margin-left: 42%;
+    height: 200px;
+}
+
+#GoBack{
+    text-align: right;
+    font-size: larger;
+    margin-left: 95%;
+}
+
+#GoBack :hover{
+    background-color: hsl(0, 1%, 35%);
+}
